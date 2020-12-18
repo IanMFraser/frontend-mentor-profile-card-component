@@ -34,7 +34,7 @@ body {
   position: absolute;
   background-color: white;
   width: 80%;
-  max-width: 340px;
+  max-width: 350px;
   top: 50%;
   left: 50%;
   display: flex;
@@ -64,28 +64,29 @@ body {
 }
 
 .userInfo {
-  border-bottom: 1px solid var(--dark-gray);
-  padding: 4rem 0 1.5rem 0;
+  border-bottom: 1px solid hsl(0, 0%, 88%);
+  padding: 4rem 0 1.2rem 0;
 }
 
 .nameAge {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: .5rem;
+  margin: .25rem;
 }
 
 .nameAge h4, p {
-  margin: 0 .25rem;
+  margin: 0 .5rem;
 }
 
 .nameAge h4 {
-  font-size: 1.2rem;
+  font-size: 1.1  rem;
 }
 
 .nameAge p {
   color: var(--dark-gray);
   font-weight: 400;
+  margin: .5rem 0;
 }
 
 .city {
@@ -97,15 +98,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 2rem 0 1rem 0;
+  padding: 1.5rem 0 1rem 0;
 }
 
 .userStats h5 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .userStats h6 {
   margin: .5rem;
   color: var(--dark-gray);
+  font-size:0.7rem;
   font-weight: 400;
 }
